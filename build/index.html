@@ -1,0 +1,300 @@
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+    <title>GULP TASK</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="menu-wrapper">
+          <nav class="navbar navbar-expand-lg navbar-light"><a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <div class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Для мужчин<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Пункт 1</a></li>
+                      <li><a href="#">Пункт 2</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#">Пункт 3</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <div class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Для женщин<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Пункт 1</a></li>
+                      <li><a href="#">Пункт 2</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#">Пункт 3</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <div class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Для детей<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Пункт 1</a></li>
+                      <li><a href="#">Пункт 2</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#">Пункт 3</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <div class="logo"><img src="img/logo.svg" alt="logo"/>THE LOOP</div>
+          <div class="nav-menu"><a href="#">Оплата</a><a href="#">Доставка</a></div>
+          <div class="shopping-cart"><i class="fa fa-shopping-basket" aria-hidden="true"></i><img src="img/arrow.svg" alt="shopping-cart"/></div>
+        </div>
+        <div class="carousel slide" id="carouselExampleIndicators" data-ride="carousel">
+          <div class="wrapper-slide-text">
+            <h5>Зимняя распродажа</h5>
+            <h1>Скидки до 90%</h1>
+            <div class="btn btn-primary btn-lg" type="button" data-toggle="modal" data-target="#myModal">СМОТРЕТЬ МОДЕЛИ</div>
+          </div>
+          <ol class="carousel-indicators">
+            <li class="active" data-target="#carouselExampleIndicators" data-slide-to="0"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="price"> 
+                <h6 class="old-price">9 900 ₽</h6>
+                <h3 class="new-price">1 900 ₽</h3>
+              </div><img class="d-block w-100" src="img/cross.png" alt="pic"/>
+            </div>
+            <div class="carousel-item">
+              <div class="price"> 
+                <h6 class="old-price">24 900 ₽</h6>
+                <h3 class="new-price">15 900 ₽</h3>
+              </div><img class="d-block w-100" src="https://clipart-best.com/img/men-shoes/men-shoes-clip-art-9.png" alt="pic"/>
+            </div>
+            <div class="carousel-item">
+              <div class="price"> 
+                <h6 class="old-price">7 900 ₽</h6>
+                <h3 class="new-price">3 900 ₽</h3>
+              </div><img class="d-block w-100" src="https://clipart-best.com/img/women-shoes/women-shoes-clip-art-22.png" alt="pic"/>
+            </div>
+            <div class="carousel-item">
+              <div class="price"> 
+                <h6 class="old-price">12 900 ₽</h6>
+                <h3 class="new-price">2 900 ₽</h3>
+              </div><img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/09/24/01/32/shoe-2780626_1280.png" alt="pic"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="delivery">
+      <div class="container">
+        <h3>БЕСПЛАТНАЯ ДОСТАВКА ОТ 3000₽</h3>
+        <p>Сделайте заказ и получите подарок!</p>
+      </div>
+    </section>
+    <section>
+      <div class="collections-wrapper">
+        <div class="collection-m-wrapper">
+          <div class="collection-m">
+            <div class="collection-m-text">
+              <h5>МУЖСКАЯ<span>КОЛЛЕКЦИЯ</span></h5>
+              <p>Обувь, полуверы, костюмы</p>
+              <div class="btn btn-primary btn-lg" type="button" data-toggle="modal" data-target="#myModal"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></div>
+            </div>
+            <div class="collection-m-img"><img src="img/collection-m.png" alt="pic"/></div>
+          </div>
+        </div>
+        <div class="collection-w-wrapper">
+          <div class="collection-w">
+            <div class="collection-w-text">
+              <h5>ЖЕНСКАЯ<span>КОЛЛЕКЦИЯ</span></h5>
+              <p>Обувь, полуверы, костюмы</p>
+              <div class="btn btn-primary btn-lg" type="button" data-toggle="modal" data-target="#myModal"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></div>
+            </div>
+            <div class="collection-w-img"><img src="img/collection-w.png" alt="pic"/></div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="dress-wrapper">
+          <div class="dress"> 
+            <p>ПЛАТЬЯ</p><img src="img/dress-1.jpg" alt="pic"/>
+          </div>
+          <div class="dress"> 
+            <p>ПЛАТЬЯ</p><img src="img/dress-2.jpg" alt="pic"/>
+          </div>
+          <div class="dress"> 
+            <p>ПЛАТЬЯ</p><img src="img/dress-1.jpg" alt="pic"/>
+          </div>
+          <div class="dress"> 
+            <p>ПЛАТЬЯ</p><img src="img/dress-2.jpg" alt="pic"/>
+          </div>
+          <div class="dress"> 
+            <p>ПЛАТЬЯ</p><img src="img/dress-2.jpg" alt="pic"/>
+          </div>
+          <div class="dress"> 
+            <p>ПЛАТЬЯ</p><img src="img/dress-1.jpg" alt="pic"/>
+          </div>
+          <div class="dress"> 
+            <p>ПЛАТЬЯ</p><img src="img/dress-2.jpg" alt="pic"/>
+          </div>
+          <div class="dress"> 
+            <p>ПЛАТЬЯ</p><img src="img/dress-1.jpg" alt="pic"/>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="clon">
+      <div class="container">
+        <h2>НОВЫЕ модели</h2>
+        <div class="models-wrapper">
+          <div class="model">
+            <div class="model-inner"><img src="img/model.jpg" alt="pic"/>
+              <h6>Коктейльное платье</h6>
+              <p>₽ 40 000</p>
+            </div>
+          </div>
+          <div class="model">
+            <div class="model-inner"><img src="img/model.jpg" alt="pic"/>
+              <h6>Коктейльное платье</h6>
+              <p>₽ 40 000</p>
+            </div>
+          </div>
+          <div class="model">
+            <div class="model-inner"><img src="img/model.jpg" alt="pic"/>
+              <h6>Коктейльное платье</h6>
+              <p>₽ 40 000</p>
+            </div>
+          </div>
+          <div class="model">
+            <div class="model-inner"><img src="img/model.jpg" alt="pic"/>
+              <h6>Коктейльное платье</h6>
+              <p>₽ 40 000     </p>
+            </div>
+          </div>
+        </div>
+        <div class="btn btn-primary btn-lg" type="button" data-toggle="modal" data-target="#myModal">ВСЕ МОДЕЛИ<i class="fa fa-long-arrow-right" aria-hidden="true"></i></div>
+      </div>
+    </section>
+    <section class="form">
+      <div class="container">
+        <div class="form-wrapper">
+          <h5>ПОЛУЧАЙТЕ СКИДКИ И ПОДАРКИ</h5>
+          <form action="">
+            <input type="email" placeholder="Ваш e-mail"/>
+            <button class="btn btn-primary btn-lg" type="button" data-toggle="modal" data-target="#myModal">ПОДПИСАТЬСЯ</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="clon">
+      <div class="container">
+        <h2>СКИДКИ ДО 90%</h2>
+        <div class="models-wrapper">
+          <div class="model">
+            <div class="model-inner"><img src="img/model.jpg" alt="pic"/>
+              <h6>Коктейльное платье</h6>
+              <p>₽ 40 000</p>
+            </div>
+          </div>
+          <div class="model">
+            <div class="model-inner"><img src="img/model.jpg" alt="pic"/>
+              <h6>Коктейльное платье</h6>
+              <p>₽ 40 000</p>
+            </div>
+          </div>
+          <div class="model">
+            <div class="model-inner"><img src="img/model.jpg" alt="pic"/>
+              <h6>Коктейльное платье</h6>
+              <p>₽ 40 000</p>
+            </div>
+          </div>
+          <div class="model">
+            <div class="model-inner"><img src="img/model.jpg" alt="pic"/>
+              <h6>Коктейльное платье</h6>
+              <p>₽ 40 000   </p>
+            </div>
+          </div>
+        </div>
+        <div class="btn btn-primary btn-lg" type="button" data-toggle="modal" data-target="#myModal">ВСЕ МОДЕЛИ<i class="fa fa-long-arrow-right" aria-hidden="true"></i></div>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 logo-box">
+            <div class="logo"><img src="img/logo.svg" alt="logo"/>THE LOOP</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla faucibus egestas elit, at eleifend elit ornare ut.</p>
+          </div>
+          <div class="col-2">
+            <ul>
+              <p>ОСНОВНЫЕ ССЫЛКИ</p>
+              <li>О компании</li>
+              <li>Каталог</li>
+              <li>Доставка</li>
+              <li>Оплата</li>
+            </ul>
+          </div>
+          <div class="col-2">
+            <ul>
+              <p>Категории</p>
+              <li>Мужская одежда</li>
+              <li>Женская одежда</li>
+              <li>Детская одежда</li>
+              <li>Для животных</li>
+            </ul>
+          </div>
+          <div class="col-2">
+            <ul>
+              <p>ПОЛЕЗНЫЕ ССЫЛКИ</p>
+              <li>Таблица размеров</li>
+              <li>Блог о моде</li>
+              <li>Наша миссия</li>
+            </ul>
+          </div>
+          <div class="col-2">
+            <ul>
+              <p>СОЦ СЕТИ</p>
+              <li> <i class="fa fa-vk" aria-hidden="true"></i>VK.com</li>
+              <li><i class="fa fa-facebook-square" aria-hidden="true"></i>Facebook</li>
+              <li><i class="fa fa-instagram" aria-hidden="true"></i>Instagram</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="footer-wrapper">
+          <p>Copyright © 2019. Все права защищены</p>
+          <p>Политика приватности</p>
+        </div>
+      </div>
+    </footer>
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+          </div>
+          <div class="modal-body">
+            <table id="box"></table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/livescript" src="app.js"></script>
+    <script src="https://use.fontawesome.com/bf65c55b8a.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
